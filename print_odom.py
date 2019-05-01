@@ -105,7 +105,6 @@ if __name__=="__main__":
         
 
 
-
     except rospy.ROSInterruptException:
         pub.publish(velocidade)
         rospy.sleep(1.0)
